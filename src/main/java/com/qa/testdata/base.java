@@ -12,7 +12,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import com.qa.Utils.TestUtils;
 import com.qa.pages.HomePage;
 
-
 public class base {
 	static WebDriver driver;
 	static Properties prop;

@@ -1,5 +1,5 @@
 package com.qa.pages;
 
-public class Deals {
+public class Parameter {
 
 }
