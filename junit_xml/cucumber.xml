@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.441734">
+<testcase classname="perform payment on prepaid BCA customer" name="payment to prepaid BCA customer" time="51.441734">
+<system-out><![CDATA[Given user logged in with BCA customer......................................passed
+When customer should have existing prepaid offer and BA.....................passed
+Then user navigate to BA page...............................................passed
+Then user click on payment tab..............................................passed
+Then user click on new payment button.......................................passed
+Then user enters the amount and click on create button......................passed
+Then payment should be created..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

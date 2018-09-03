@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "payment to prepaid BCA customer",
+        "description": "",
+        "id": "perform-payment-on-prepaid-bca-customer;payment-to-prepaid-bca-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26408327854,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user logged in with BCA customer",
+            "match": {
+              "location": "TFNURG_68729_StepDef.user_logged_in_with_BCA_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8368953543,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "customer should have existing prepaid offer and BA",
+            "match": {
+              "location": "TFNURG_68729_StepDef.customer_should_have_existing_prepaid_offer_and_BA()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16664001724,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to BA page",
+            "match": {
+              "location": "TFNURG_68729_StepDef.user_navigate_to_BA_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60375,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on payment tab",
+            "match": {
+              "location": "TFNURG_68729_StepDef.user_click_on_payment_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286478,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on new payment button",
+            "match": {
+              "location": "TFNURG_68729_StepDef.user_click_on_new_payment_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64299,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the amount and click on create button",
+            "match": {
+              "location": "TFNURG_68729_StepDef.user_enters_the_amount_and_click_on_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39243,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "payment should be created",
+            "match": {
+              "location": "TFNURG_68729_StepDef.payment_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "perform payment on prepaid BCA customer",
+    "description": "",
+    "id": "perform-payment-on-prepaid-bca-customer",
+    "keyword": "Feature",
+    "uri": "C:/Users/paku0817/workspace/com.qa.regression/src/main/java/feature/TFNURG-68737.feature"
+  }
+]
